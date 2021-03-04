@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPatterns", "FactoryPatterns\FactoryPatterns.csproj", "{B7E0789A-E273-442B-8728-2E2E8BDDB6F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{72B62C14-EF88-4796-937C-7AE4F13A77AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{72B62C14-EF88-4796-937C-7AE4F13A77AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{86093B50-9440-4F96-B317-4F4BCF2F8828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{86093B50-9440-4F96-B317-4F4BCF2F8828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{090E8FD5-A4A6-49C4-B168-ACEAA88EAB7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{86093B50-9440-4F96-B317-4F4BCF2F8828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86093B50-9440-4F96-B317-4F4BCF2F8828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86093B50-9440-4F96-B317-4F4BCF2F8828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090E8FD5-A4A6-49C4-B168-ACEAA88EAB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090E8FD5-A4A6-49C4-B168-ACEAA88EAB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090E8FD5-A4A6-49C4-B168-ACEAA88EAB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090E8FD5-A4A6-49C4-B168-ACEAA88EAB7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
