@@ -4,6 +4,7 @@ namespace InterfaceSegregationPrinciple
 {
     class Program
     {
+        // big interface should segregrate to smaller interfaces
         static void Main(string[] args)
         {
             var scanner = new Scanner();

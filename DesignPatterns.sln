@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncDelegate", "FuncDelegat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsAndDelegates", "EventsAndDelegates\EventsAndDelegates.csproj", "{1ED62231-2C12-4D34-B9C5-D8EF132EC9C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{FA372763-B0A3-44BE-A27A-0401AC8A0A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{FA372763-B0A3-44BE-A27A-0401AC8A0A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{C22A433E-FB2F-405D-8550-4081F53A0F25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{FA372763-B0A3-44BE-A27A-0401AC8A0A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA372763-B0A3-44BE-A27A-0401AC8A0A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA372763-B0A3-44BE-A27A-0401AC8A0A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22A433E-FB2F-405D-8550-4081F53A0F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22A433E-FB2F-405D-8550-4081F53A0F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22A433E-FB2F-405D-8550-4081F53A0F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22A433E-FB2F-405D-8550-4081F53A0F25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
