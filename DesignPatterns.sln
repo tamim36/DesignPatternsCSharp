@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosedPrinciple", "Open
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{090E8FD5-A4A6-49C4-B168-ACEAA88EAB7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncDelegate", "FuncDelegate\FuncDelegate.csproj", "{66B8B578-0B0C-4A29-98B9-8FE4B1590E44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncDelegate", "FuncDelegate\FuncDelegate.csproj", "{66B8B578-0B0C-4A29-98B9-8FE4B1590E44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates", "EventsAndDelegates\EventsAndDelegates.csproj", "{1ED62231-2C12-4D34-B9C5-D8EF132EC9C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsAndDelegates", "EventsAndDelegates\EventsAndDelegates.csproj", "{1ED62231-2C12-4D34-B9C5-D8EF132EC9C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{FA372763-B0A3-44BE-A27A-0401AC8A0A31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1ED62231-2C12-4D34-B9C5-D8EF132EC9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ED62231-2C12-4D34-B9C5-D8EF132EC9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ED62231-2C12-4D34-B9C5-D8EF132EC9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA372763-B0A3-44BE-A27A-0401AC8A0A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA372763-B0A3-44BE-A27A-0401AC8A0A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA372763-B0A3-44BE-A27A-0401AC8A0A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA372763-B0A3-44BE-A27A-0401AC8A0A31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
