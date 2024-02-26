@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPatterns", "FactoryPatterns\FactoryPatterns.csproj", "{B7E0789A-E273-442B-8728-2E2E8BDDB6F7}"
 EndProject
@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregationPrincip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{C22A433E-FB2F-405D-8550-4081F53A0F25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatterns", "BuilderPatterns\BuilderPatterns.csproj", "{471E0B7D-0F0A-4D0D-9E56-AA88490D5A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPatterns", "BuilderPatterns\BuilderPatterns.csproj", "{471E0B7D-0F0A-4D0D-9E56-AA88490D5A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{4D50AE43-B30B-4165-B95B-12B9FCCBECDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{471E0B7D-0F0A-4D0D-9E56-AA88490D5A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471E0B7D-0F0A-4D0D-9E56-AA88490D5A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{471E0B7D-0F0A-4D0D-9E56-AA88490D5A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D50AE43-B30B-4165-B95B-12B9FCCBECDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D50AE43-B30B-4165-B95B-12B9FCCBECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D50AE43-B30B-4165-B95B-12B9FCCBECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D50AE43-B30B-4165-B95B-12B9FCCBECDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
